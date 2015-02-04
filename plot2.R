@@ -1,0 +1,1 @@
+plot(as.POSIXct(paste(powercon$Date, powercon$Time), "%d/%m/%Y %H:%M:%S", tz = "UTC"), powercon$Global_active_power, type="l", xlab = "", ylab="Global Active Power (kilowatts)")
